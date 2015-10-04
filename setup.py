@@ -12,6 +12,6 @@ setuptools.setup(
     author = 'Henry Weickert',
     author_email = 'henryweickert@gmail.com',
     url = 'https://github.com/hweickert/where',
-    keywords = ['where', 'which']
+    keywords = ['where', 'which'],
     install_requires=["itermate==1.0.1"]
 )
