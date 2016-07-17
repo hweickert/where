@@ -1,3 +1,5 @@
+.tox/
+.cache/
 venv/
 env/
 build/
