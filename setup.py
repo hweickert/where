@@ -7,7 +7,7 @@ Makes use of the PATH variable and the current directory."""
 setuptools.setup(
     name="where",
     packages = ["where"],
-    version="1.0.1",
+    version="1.0.2",
     description=description,
     author = 'Henry Weickert',
     author_email = 'henryweickert@gmail.com',
