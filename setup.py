@@ -13,5 +13,10 @@ setuptools.setup(
     author_email = 'henryweickert@gmail.com',
     url = 'https://github.com/hweickert/where',
     keywords = ['where', 'which'],
-    install_requires=["itermate==1.0.1"]
+    install_requires=["itermate==1.0.2"],
+    entry_points={
+        'console_scripts': [
+            'where = where.__main__:main',
+        ]
+    }
 )
